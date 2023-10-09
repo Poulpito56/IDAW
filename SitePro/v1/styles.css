@@ -1,0 +1,13 @@
+.navigation-bar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: lightgray;
+  box-shadow: 0 10px 10px rgba(211, 211, 211, 0.74);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.navigate-link{
+  min-width: 50px;
+}
