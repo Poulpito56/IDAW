@@ -1,11 +1,8 @@
-<h1>
-  C'est pas ma photo mais tkt
-</h1>
 <div class="content">
   <div class="content-column">
     <p>Le développement web, une symphonie d'innovation et de créativité ! Avec chaque ligne de code, nous tissons la toile numérique du futur. Pendant ce temps, Waluigi... oh, Waluigi, toujours dans l'ombre de ses contemporains, cherchant désespérément à se démarquer. Alors que nous sculptons le monde virtuel, il reste coincé dans son propre monde de médiocrité. Le développement web, où la magie se produit, laissant Waluigi dans le noir.</p>
     <div class="separation"></div>
-    <img class="image-cv" src="ressources/trol.jpg" alt="">
+    <img class="image-cv" src="ressources/dev5.jpeg" alt="">
     <div class="separation"></div>
     <p>Le développement web, véritable pilier de l'ère numérique, nous offre un monde de possibilités infinies. Grâce à des compétences en programmation et en design, les développeurs web façonnent l'avenir en créant des sites et des applications innovants. Ils connectent des millions de personnes à l'information, aux services et aux expériences les plus passionnantes.</p>
     <div class="separation"></div>
@@ -22,7 +19,7 @@
       </ul>
     </div>
     <div class="separation"></div>
-    <img class="image-cv" src="ressources/sabib.jpg" alt="">
+    <img class="image-cv" src="ressources/dev6.jpeg" alt="">
     <div class="separation"></div>
   </div>
 </div>

@@ -1,11 +1,8 @@
-<h1>
-  It's not my photo, but don't worry
-</h1>
 <div class="content">
   <div class="content-column">
     <p>Web development, a symphony of innovation and creativity! With every line of code, we weave the digital canvas of the future. Meanwhile, Waluigi... oh, Waluigi, forever in the shadow of his peers, desperately seeking to stand out. While we sculpt the virtual world, he remains stuck in his own realm of mediocrity. Web development, where the magic happens, leaving Waluigi in the dark.</p>
     <div class="separation"></div>
-    <img class="image-cv" src="ressources/trol.jpg" alt="">
+    <img class="image-cv" src="ressources/dev5.jpeg" alt="">
     <div class="separation"></div>
     <p>Le développement web, véritable pilier de l'ère numérique, nous offre un monde de possibilités infinies. Grâce à des compétences en programmation et en design, les développeurs web façonnent l'avenir en créant des sites et des applications innovants. Ils connectent des millions de personnes à l'information, aux services et aux expériences les plus passionnantes.</p>
     <div class="separation"></div>
@@ -22,7 +19,7 @@
       </ul>
     </div>
     <div class="separation"></div>
-    <img class="image-cv" src="ressources/sabib.jpg" alt="">
+    <img class="image-cv" src="ressources/dev6.jpeg" alt="">
     <div class="separation"></div>
   </div>
 </div>

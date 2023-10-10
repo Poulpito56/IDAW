@@ -1,28 +1,24 @@
-<h1>
-  It's not my photo, but don't worry
-</h1>
 <div class="content">
   <div class="content-column">
-    <p>Web development, a symphony of innovation and creativity! With every line of code, we weave the digital canvas of the future. Meanwhile, Waluigi... oh, Waluigi, forever in the shadow of his peers, desperately seeking to stand out. While we sculpt the virtual world, he remains stuck in his own realm of mediocrity. Web development, where the magic happens, leaving Waluigi in the dark.</p>
+    <p>Senior Front-end Developer at ABC Web Solutions (2018 - Present): Responsible for creating user-friendly interfaces, managing complex projects, and coordinating development teams.</p>
     <div class="separation"></div>
-    <img class="image-cv" src="ressources/lourd.jpg" alt="">
+    <img class="image-cv" src="ressources/dev1.jpeg" alt="">
     <div class="separation"></div>
-    <p>Le développement web, véritable pilier de l'ère numérique, nous offre un monde de possibilités infinies. Grâce à des compétences en programmation et en design, les développeurs web façonnent l'avenir en créant des sites et des applications innovants. Ils connectent des millions de personnes à l'information, aux services et aux expériences les plus passionnantes.</p>
+    <p>Master's in Computer Science, XYZ University (2017): Specialized in Web Development and Information Technologies.</p>
     <div class="separation"></div>
   </div>
   <div class="content-column">
-    <p>Le développement web, c'est l'art de tisser des fils numériques, créant une toile d'opportunités infinies. Chaque ligne de code, chaque pixel soigneusement placé, est une note dans la symphonie digitale. À travers cette danse d'algorithme, le monde se rapproche, les distances s'effacent. Les claviers deviennent des pinceaux, les écrans des toiles où l'imagination prend vie. C'est un voyage au cœur de l'inconnu, une quête perpétuelle vers l'avenir. Le développement web est l'écho de nos rêves, la voix de l'innovation, le souffle de la créativité. Dans ce monde virtuel, nous sculptons notre destin, un clic à la fois, et nous écrivons l'histoire de demain.</p>
+    <p>Front-end Developer at XYZ Interactive (2015 - 2018): I contributed to the development of innovative web projects for a diverse clientele. My role involved collaborating with UX/UI designers to create intuitive user interfaces, resolving browser compatibility issues, and optimizing website performance for a smooth user experience. I also had the opportunity to train and supervise junior team members to enhance their development skills.</p>
     <div class="separation"></div>
+    Proficient Languages:
     <div class="content-list">
       <ul>
-        <li>Un cactus en tutu.</li>
-        <li>Un parapluie qui parle plusieurs langues.</li>
-        <li>Des pingouins faisant du skateboard sur la Lune.</li>
-        <li>Un crayon géant en forme de spaghetti.</li>
+        <li>HTML: For structuring and creating web content.</li>
+        <li>CSS: For designing and formatting web pages.</li>
+        <li>JavaScript: For creating dynamic interactions and features.</li>
+        <li>jQuery: For simplifying interactions and DOM manipulation.</li>
       </ul>
     </div>
-    <div class="separation"></div>
-    <img class="image-cv" src="ressources/plus2pat.jpg" alt="">
     <div class="separation"></div>
   </div>
 </div>

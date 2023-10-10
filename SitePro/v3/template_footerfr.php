@@ -1,10 +1,9 @@
 
 <footer>
-  Jules César, ayant acquis des pouvoirs magiques, arrive sur le champ de bataille monté sur un cactus en tutu géant, tandis que son armée de pingouins skateurs lunaires (qui ont également des capes magiques) s'aligne derrière lui. Il lève son parapluie polyglotte, qui se transforme instantanément en un bouclier énergétique qui bloque les attaques ennemies.
-  
-  Pendant ce temps, Jules César brandit son crayon géant en forme de spaghetti et dessine un portail interdimensionnel dans le ciel. Une armée de créatures fantastiques et mythologiques en sort, prête à se joindre au combat. Ces créatures, guidées par les ordres de Jules César transmis par le parapluie polyglotte, créent une confusion totale parmi les ennemis.
-  
-  Alors que les pingouins skateurs lunaires dévalent les collines de la bataille, utilisant leurs compétences incroyables pour désarmer les ennemis et les faire chuter, le cactus en tutu géant tournoie à grande vitesse, créant une tornade de sable et de débris qui aveugle et désoriente l'armée adverse.
-  
-  Pendant que le chaos règne, Jules César et son armée exploitent la diversion créée par ces objets insolites pour lancer une attaque décisive, remportant ainsi la bataille de manière épique et totalement imprévisible.
-</footer>
+Bienvenue sur mon site web professionnel. Je suis ravi de vous accueillir ici et de partager mon travail, mes passions et mes expériences avec vous. N'hésitez pas à explorer les différentes sections de ce site pour en savoir plus sur moi et mon parcours professionnel.
+
+Si vous avez des questions, des commentaires ou si vous souhaitez discuter de collaborations potentielles, je vous encourage à me contacter via le formulaire de contact ou à l'adresse e-mail fournie ci-dessous. Votre retour est précieux et j'apprécie chaque interaction avec mes visiteurs.
+
+Je vous remercie sincèrement pour votre intérêt et votre soutien. J'espère que vous trouverez ici des informations utiles et inspirantes. Restez connecté pour les mises à jour régulières et les nouvelles publications.
+
+Suivez-moi également sur les réseaux sociaux pour ne rien manquer de mes dernières actualités et découvertes professionnelles. Merci de visiter mon site et à bientôt !</footer>
