@@ -1,0 +1,9 @@
+table {
+  border: solid;
+  border-width: 1px 0 1px 0;
+}
+
+.data-field {
+  padding: 2px 5px;
+  text-align: center;
+}
