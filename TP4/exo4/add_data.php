@@ -35,6 +35,7 @@
       $stmt->execute();
 
       echo "Données ajoutées avec succès.";
+      header("Location: users.php");
     } catch (PDOException $e) {
       echo "Erreur : " . $e->getMessage();
     }

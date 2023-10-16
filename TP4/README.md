@@ -6,4 +6,4 @@ http://localhost/IDAW/TP4/exo3/init_db.php
 
 ## Afficher les données :
 Se rendre sur : 
-http://localhost/IDAW/TP4/exo1/users.php
+http://localhost/IDAW/TP4/exo4/users.php

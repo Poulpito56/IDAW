@@ -34,22 +34,25 @@
     echo "<tr><th>Name</th><th>Email</th></tr>";
     foreach ($users as $user) {
       echo "<tr><td class=\"data-field\">" . $user->name . "</td><td class=\"data-field\">" . $user->email . "</td>";
-      echo "<td>
-  <form class=\"image-form\" action=\"delete_data.php\" method=\"POST\">
-  <button type=\"submit\">
-    <img class=\"logo\" src=\"images/logo_delete.png\" alt=\"delete\">
-  </button>
-    <input type=\"hidden\" id=\"id\" name=\"id\" value=\"" . $user->id . "\" />
-  </form>
-</td>
-<td>
-  <form class=\"image-form\" action=\"modify_data.php\" method=\"POST\">
-  <button type=\"submit\">
-    <img class=\"logo\" src=\"images/logo_modify.png\" alt=\"modify\">
-  </button>
-    <input type=\"hidden\" id=\"id\" name=\"id\" value=\"" . $user->id . "\" />
-  </form>
-</td></tr>";
+      echo "
+      <td>
+        <form class=\"image-form\" action=\"delete_data.php\" method=\"POST\">
+          <button type=\"submit\">
+            <img class=\"logo\" src=\"images/logo_delete.png\" alt=\"delete\">
+          </button>
+          <input type=\"hidden\" id=\"id\" name=\"id\" value=\"" . $user->id . "\" />
+        </form>
+      </td>
+      <td>
+        <form class=\"image-form\" action=\"modify_data.php\" method=\"POST\">
+          <button type=\"submit\">
+            <img class=\"logo\" src=\"images/logo_modify.png\" alt=\"modify\">
+          </button>
+          <input type=\"hidden\" id=\"id\" name=\"id\" value=\"" . $user->id . "\" />
+          <input type=\"hidden\" id=\"name\" name=\"name\" value=\"" . $user->name . "\" />
+          <input type=\"hidden\" id=\"email\" name=\"email\" value=\"" . $user->email . "\" />
+        </form>
+      </td></tr>";
     }
     echo "</table>";
   } else {
@@ -70,7 +73,6 @@
     <div>
       <button type="submit">Ajouter</button>
     </div>
-    <input type="hidden" id="postId" name="postId" value="34657" />
   </form>
 </body>
 

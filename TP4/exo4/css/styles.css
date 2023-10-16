@@ -1,6 +1,7 @@
 table {
   border: solid;
   border-width: 1px 0;
+  width: 500px;
 }
 
 .data-field {
@@ -9,7 +10,7 @@ table {
 }
 
 .adding-form {
-  width: 300px;
+  width: 500px;
   display: flex;
   flex-direction: column;
   gap: 10px;

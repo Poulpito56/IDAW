@@ -9,6 +9,8 @@
   <?php
   if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Récupérer les données du formulaire
+    $name = $_POST['name'];
+    $email = $_POST['email'];
     $record_id = $_POST['id'];
 
     try {
@@ -27,11 +29,13 @@
         echo 'Erreur : ' . $erreur->getMessage();
       }
 
-      $stmt = $pdo->prepare("DELETE FROM users WHERE id = :id");
+      $stmt = $pdo->prepare("UPDATE users SET name = :name, email = :email WHERE id = :id");
       $stmt->bindParam(':id', $record_id, PDO::PARAM_INT);
+      $stmt->bindParam(':name', $name);
+      $stmt->bindParam(':email', $email);
       $stmt->execute();
 
-      echo "Donnée suprimée avec succès.";
+      echo "Données modifiées avec succès.";
       header("Location: users.php");
     } catch (PDOException $e) {
       echo "Erreur : " . $e->getMessage();
