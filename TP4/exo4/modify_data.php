@@ -17,13 +17,13 @@ $record_id = $_POST['id'];
     <div>
       <label for="name">Name :</label>
       <?php
-      echo "<input type=\"text\" id=\"name\" name=\"name\" value=\"" . $_POST['name'] . "\" />";
+      echo "<input type=\"text\" id=\"name\" name=\"name\" value=\"" . $_POST['name'] . "\" required minlength=\"1\" />";
       ?>
     </div>
     <div>
       <label for="email">Email :</label>
       <?php
-      echo "<input type=\"text\" id=\"email\" name=\"email\" value=\"" . $_POST['email'] . "\" />";
+      echo "<input type=\"text\" id=\"email\" name=\"email\" value=\"" . $_POST['email'] . "\" required minlength=\"1\" />";
       ?>
     </div>
     <?php

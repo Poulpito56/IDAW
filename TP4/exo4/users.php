@@ -64,11 +64,11 @@
   <form class="adding-form" action="add_data.php" method="POST">
     <div>
       <label for="name">Name :</label>
-      <input type="text" id="name" name="name" placeholder="Add new name" />
+      <input type="text" id="name" name="name" placeholder="Add new name" required minlength="1" />
     </div>
     <div>
       <label for="email">Email :</label>
-      <input type="text" id="email" name="email" placeholder="Add new email" />
+      <input type="text" id="email" name="email" placeholder="Add new email" required minlength="1" />
     </div>
     <div>
       <button type="submit">Ajouter</button>

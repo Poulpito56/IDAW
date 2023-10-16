@@ -1,0 +1,36 @@
+table {
+  border: solid;
+  border-width: 1px 0;
+  width: 500px;
+}
+
+.data-field {
+  padding: 2px 5px;
+  text-align: center;
+}
+
+.adding-form {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  padding: 15px;
+}
+
+.logo {
+  width: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+
+  &:hover {
+    color: grey;
+  }
+
+  &:active {
+    color: lightgrey;
+  }
+}
