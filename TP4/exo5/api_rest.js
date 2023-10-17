@@ -1,6 +1,6 @@
 // Fonction pour récupérer et afficher la liste des utilisateurs
 function afficherListeUtilisateurs() {
-  fetch('http://localhost/IDAW/TP4/exo5/users.php', {
+  fetch('users.php', {
     method: 'GET',
     headers: {
       'Content-Type': 'application/json'
@@ -33,7 +33,7 @@ function ajouterUtilisateur() {
 
   const data = { name, email };
 
-  fetch('http://localhost/IDAW/TP4/exo5/users.php', {
+  fetch('users.php', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
