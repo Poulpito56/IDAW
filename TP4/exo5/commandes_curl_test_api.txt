@@ -1,0 +1,5 @@
+curl -i -H "Content-Type: application/json" -X PUT -d "{\"id\":\"2\",\"name\":\"Dalton\", \"email\":\"joe\"}" http://localhost/IDAW/TP4/exo5/user.php
+
+curl -i -H "Content-Type: application/json" -X POST -d "{\"name\":\"Dalton\", \"email\":\"joe\"}" http://localhost/IDAW/TP4/exo5/user.php
+
+curl -i -H "Content-Type: application/json" -X "DELETE" -d "{\"id\":\"2\"}" localhost/IDAW/TP4/exo5/user.php
