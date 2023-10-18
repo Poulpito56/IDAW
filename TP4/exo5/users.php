@@ -1,6 +1,7 @@
 <?php
 require_once('generate_pdo.php');
 header('Content-Type: application/json');
+header("Access-Control-Allow-Origin: *");
 
 switch ($_SERVER['REQUEST_METHOD']) {
 
