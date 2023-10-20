@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+  <meta charset='utf-8'>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" crossorigin="anonymous"></script>
+  <title>tabletest</title>
+  <style>
+    body {
+      margin-top: 5em;
+    }
+
+    .table {
+      margin-top: 100px;
+      margin-bottom: 100px;
+    }
+  </style>
+</head>
+
+<body>
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Nom</th>
+        <th scope="col">Prenom</th>
+        <th scope="col">Date de naissance</th>
+        <th scope="col">Aime le cours Web</th>
+        <th scope="col">Remarques</th>
+        <th scope="col">CRUD</th>
+      </tr>
+    </thead>
+    <tbody id="studentsTableBody">
+    </tbody>
+  </table>
+  <form id="addStudentForm" action="" onsubmit="onFormSubmit();">
+    <div class="form-group row">
+      <label for="inputNom" class="col-sm-2 col-form-label">Nom*</label>
+      <div class="col-sm-3">
+        <input required type="text" class="form-control" id="inputNom">
+      </div>
+    </div>
+    <div class="form-group row submit-button">
+      <span class="col-sm-2"></span>
+      <div class="col-sm-2">
+        <button type="submit" class="btn btn-primary form-control">Submit</button>
+      </div>
+    </div>
+  </form>
+  <script>
+    fields = ["prenom", "date_de_naissance", "aime_le_cours_Web", "remarques", "cRUD"];
+
+    function displayFieldList() {
+      let result = "";
+      fields.forEach(field => {
+        fieldid = $("#input" + field).val();
+        if (field !== undefined) {
+          result += `<td>${fieldid}</td>`;
+        }
+      });
+      return result;
+    }
+
+    function onFormSubmit() {
+      // prevent the form to be sent to the server
+      event.preventDefault();
+      let nom = $("#inputNom").val();
+      $("#studentsTableBody").append(`<tr><td>${nom}</td>` + displayFieldList() + `</tr>`);
+      $("input").val("");
+    }
+
+    function formatString(inputString) {
+      // Divise le string d'entrée en mots
+      const words = inputString.split("_");
+
+      // Capitalise la première lettre et rejoint les mots avec un espace
+      const formattedString = words
+        .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+        .join(" ");
+
+      return formattedString;
+    }
+
+    $(document).ready(function () {
+      fields.forEach(field => {
+        $(".submit-button").before(`
+        <div class="form-group row">
+          <label class="col-form-label">${formatString(field)}</label>
+          <div class="">
+            <input type="text" class="form-control" id="input${field}">
+          </div>
+        </div>`)
+      });
+    });
+  </script>
+</body>
+
+</html>
